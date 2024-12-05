@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Espelho de Lívia</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Lívia, uma menina de 12 anos, se mudou com sua família para uma antiga casa no interior. Enquanto explorava o sótão empoeirado, encontrou um espelho antigo com moldura de madeira entalhada. O espelho parecia olhar para ela, convidando-a a se aproximar.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o espelho</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar o espelho e descer para o quarto</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>À noite, Lívia sentiu uma estranha atração pelo espelho. Ao se aproximar, viu sua própria imagem, mas com olhos diferentes – mais brilhantes, mais doces. A imagem no espelho sorriu e disse: "Venha, Lívia, aqui é onde você pertence."</p>
+            <button class="btn-proximo" data-proximo="3">Entrar no espelho</button>
+            <button class="btn-proximo" data-proximo="4">Fugir e contar para seus pais</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide ignorar o espelho e vai para o seu quarto. Mas, enquanto dorme, sente a presença do espelho chamando novamente.</p>
+            <button class="btn-proximo" data-proximo="1">Voltar ao espelho</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Lívia atravessa o espelho e encontra um mundo perfeito e colorido. Sua duplicata a guia até um jardim encantado onde flores dançam e pássaros cantam melodias doces. Mas algo parece errado...</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o jardim</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para o mundo real</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você conta para seus pais sobre o espelho. Eles dizem que era uma relíquia da família e que sempre teve uma "aura especial". Eles trancam o sótão, mas você sente que a história está longe de acabar.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Enquanto explora o jardim, Lívia percebe detalhes sinistros: a casa do espelho é uma réplica da sua, mas com janelas fechadas e portas trancadas. Sua duplicata começa a mudar, revelando olhos frios e uma voz ameaçadora.</p>
+            <button class="btn-proximo" data-proximo="7">Confrontar a duplicata</button>
+
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Lívia tenta voltar para o mundo real, mas percebe que está presa no mundo do espelho. A duplicata aparece, rindo, e diz: "Você nunca mais vai sair daqui."</p>
+            <button class="btn-proximo" data-proximo="8">Confrontar a duplicata</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Lívia percebe que a única saída é destruir o espelho. Com toda sua força, ela quebra o vidro e é sugada de volta ao mundo real. O espelho se desfaz em pedaços, e Lívia está finalmente livre.</p>
+            <button class="btn-proximo" data-proximo="8">Finalizar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Lívia estava livre, mas a experiência deixou marcas. O espelho foi jogado fora, mas ela nunca esqueceu a sensação de ser observada.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
